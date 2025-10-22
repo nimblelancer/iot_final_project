@@ -1,0 +1,144 @@
+/* ===============================
+   GLOBAL STYLES
+=============================== */
+body {
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding: 15px;
+  max-width: 100%;
+}
+
+/* ===============================
+   HEADER
+=============================== */
+.header-row {
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.app-title {
+  color: white;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* ===============================
+   TABS
+=============================== */
+.custom-tabs {
+  margin-bottom: 15px;
+}
+
+.custom-tabs .tab {
+  background-color: #2a2a2a !important;
+  color: #aaa !important;
+  border: none !important;
+  font-weight: 600;
+  padding: 12px 24px !important;
+  transition: all 0.3s ease;
+}
+
+.custom-tabs .tab:hover {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+.custom-tabs .tab--selected {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+  border-bottom: 3px solid #00d4ff !important;
+}
+
+/* ===============================
+   CARDS
+=============================== */
+.map-card,
+.insight-card,
+.sensor-detail-card {
+  background: rgba(42, 42, 42, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.map-card-header {
+  background: linear-gradient(135deg, #434343 0%, #2a2a2a 100%);
+  border-bottom: 2px solid #00d4ff;
+  border-radius: 15px 15px 0 0 !important;
+  padding: 12px 15px;
+}
+
+.card-title {
+  color: #00d4ff;
+  margin: 0;
+  font-weight: 600;
+}
+
+.filter-buttons .btn {
+  margin: 0 2px;
+  transition: all 0.3s ease;
+}
+
+.filter-buttons .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 212, 255, 0.4);
+}
+
+.insight-card .card-header {
+  background: linear-gradient(135deg, #434343 0%, #2a2a2a 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.top-list-body {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.top-list-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.top-list-body::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 3px;
+}
+
+.stat-box {
+  background: linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sensor-info-header {
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+.detail-row {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  background: rgba(50, 50, 50, 0.5) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+}
+
+.alert {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
